@@ -1,4 +1,4 @@
-        print("{}: {}".format(key, value))
+print("{}: {}".format(key, value))
 
 
 def mergesort(array):
@@ -45,6 +45,3 @@ if __name__ == "__main__":
     sorted_list = mergesort(value_list)
     print(sorted_list)
 
-
-    sorted_list = mergesort(value_list)
-    print(sorted_list)
